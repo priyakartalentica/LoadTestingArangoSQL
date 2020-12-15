@@ -1,0 +1,14 @@
+config:
+  target: "http://104.211.166.168:9898"
+  phases:
+    - duration: 60
+      arrivalRate: 30
+      name: Warm up
+
+
+scenarios:
+  # We define one scenario:
+  - name: "Search and buy"
+    flow:
+      - get:
+          url: "/pizzaorder"
