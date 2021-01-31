@@ -1,0 +1,13 @@
+Topics ,ArangoDB ,MySQL 
+Reliability ,Observed issues where ArangoDB crashed while retrieving bulk data.  ,"MySQL is high on Reliability 
+ "
+Transactions ,"Transactions are user defined and are designed for short and small data retrieval and/or modification operations (which can fit into main memory). It is not optimized for very long-running or very voluminous operations, and may not be usable for these cases. 
+Nested Transactions are not supported.  ",ACID properties are well supported 
+Migration Tool ,It was very difficult to get a migration tool that supports all features. Figured out Arangobee but had very less documentation and difficult to integrate. But it finally worked for us. ,Flyway is widely used. 
+Community Support ,ArangoDB’s community support is evolving. ,Wider community support available for MySQL than ArangoDB 
+Data Export and Import ,Faced a lot of issue while exporting huge amount of data from the UI. ,Easy with MySQL 
+Spring Data ,AQL needs to be written for bit complex conditions ,"DQL Suppor for MySQL is quite mature and supports complex queries are supported and need not write separate SQL statements for the same. 
+ "
+Tools ,WebUI has lot of room for improvement. Eg. While downloading/extracting large date can cause the system to crash. ,Better Support of 3rd party tools. 
+Documentation ,Well Documented with examples. Easy to find and use. ,Well documented 
+REST Endpoint ,ArangoDB is accessible via Rest Endpoint so UI can interact directly with ArangoDB. ,MySQL doesn't facilitate REST Endpoints. 
